@@ -8,6 +8,6 @@ public class StringConcat {
             return s1;
         }
 
-        return (s1 == null ? "" : s1) + (s2 == null ? "" : s2);
+        return s1 + s2;
     }
 }
