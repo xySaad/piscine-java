@@ -7,14 +7,14 @@ public class Cat {
         if (args.length != 1)
             return;
 
-        InputStream input = Files.newInputStream(Path.of(args[0]));
+        OutputStream input = Files.newOutputStream(Path.of(args[0]));
         byte[] buffer = new byte[1024];
         while (true) {
-            int n = input.read(buffer);
+            int n = System.in.read(buffer);
             if (n == -1)
                 break;
 
-            System.out.write(buffer, 0, n);
+            input.write(buffer, 0, n);
         }
         input.close();
     }
