@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   demo:
-    runs-on: ubuntu-lates
+    runs-on: demo
     steps:
       - run: echo "This runs in your browser!"
       - run: echo "No server, no Docker, no admin"
