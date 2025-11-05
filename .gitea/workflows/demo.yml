@@ -1,0 +1,13 @@
+name: demo
+
+on: [push]
+
+jobs:
+  demo:
+    runs-on: ubuntu-lates
+    steps:
+      - run: echo "This runs in your browser!"
+      - run: echo "No server, no Docker, no admin"
+      - run: echo "Gitea Actions works!"
+      - run: sleep 2
+      - run: echo "Done in $(date)"
