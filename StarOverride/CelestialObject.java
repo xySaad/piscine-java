@@ -66,7 +66,7 @@ public class CelestialObject {
     }
 
     public String toStringFull() {
-        return Stringify("%s is positioned at (%f, %f, %f)");
+        return Stringify("%s%f%f%f");
     }
 
     public boolean equals(CelestialObject other) {
