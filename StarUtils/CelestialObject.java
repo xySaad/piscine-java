@@ -61,7 +61,6 @@ public class CelestialObject {
         Object[] args = new Object[] { this.name, this.x, this.y, this.z };
 
         String str = String.format(format, args);
-        System.out.println(str);
         return str;
     }
 

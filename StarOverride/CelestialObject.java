@@ -58,10 +58,7 @@ public class CelestialObject {
     }
 
     String Stringify(String format) {
-        Object[] args = new Object[] { this.name, this.x, this.y, this.z };
-
-        String str = String.format(format, args);
-        return str;
+        return String.format(format, this.name, this.x, this.y, this.z);
     }
 
     public String toString() {
