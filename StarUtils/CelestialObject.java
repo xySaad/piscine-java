@@ -57,8 +57,7 @@ public class CelestialObject {
         return getDistanceBetween(a, b) * KM_IN_ONE_AU;
     }
 
-    public String toString() {
-        String format = "%s is positioned at (%.3f, %.3f, %.3f)";
+    String Stringify(String format) {
         Object[] args = new Object[] { this.name, this.x, this.y, this.z };
 
         String str = String.format(format, args);
@@ -66,13 +65,12 @@ public class CelestialObject {
         return str;
     }
 
-    public String toStringFull() {
-        String format = "%s is positioned at (%f, %f, %f)";
-        Object[] args = new Object[] { this.name, this.x, this.y, this.z };
+    public String toString() {
+        return Stringify("%s is positioned at (%.3f, %.3f, %.3f)");
+    }
 
-        String str = String.format(format, args);
-        System.out.println(str);
-        return str;
+    public String toStringFull() {
+        return Stringify("%s is positioned at (%f, %f, %f)");
     }
 
     public boolean equals(CelestialObject other) {
