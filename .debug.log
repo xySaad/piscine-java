@@ -1,0 +1,289 @@
+runing docker tests...
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.392)
+DEBUG: CelestialObject(String name=Altair, x=12.450, y=328.844, z=-328.392)
+DEBUG: Star(String name=Altair, x=12.450, y=328.844, z=-328.392, magnitude=13.128)
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.392)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Jupiter, x=12.450, y=328.844, z=-328.392, centerStar=Altair)
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.392)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Jupiter, x=12.450, y=328.844, z=-328.392, centerStar=Altair)
+DEBUG: CelestialObject(String name=Jupiter, x=12.460, y=328.844, z=-328.392)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Jupiter, x=12.460, y=328.844, z=-328.392, centerStar=Altair)
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.392)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Jupiter, x=12.450, y=328.844, z=-328.392, centerStar=Altair)
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.400)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Jupiter, x=12.450, y=328.844, z=-328.400, centerStar=Altair)
+DEBUG: CelestialObject(String name=Saturne, x=12.450, y=328.844, z=-328.392)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Saturne, x=12.450, y=328.844, z=-328.392, centerStar=Altair)
+DEBUG: CelestialObject() called
+DEBUG: Star() called
+DEBUG: CelestialObject(String name=Jupiter, x=12.450, y=328.844, z=-328.392)
+DEBUG: getName() called -> Soleil
+DEBUG: Planet(String name=Jupiter, x=12.450, y=328.844, z=-328.392, centerStar=Soleil)
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: equals(Star Altair)
+DEBUG: equals(Altair)
+DEBUG: -> true
+DEBUG: -> true
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: -> true
+DEBUG: equals(Star Altair)
+DEBUG: equals(Altair)
+DEBUG: -> true
+DEBUG: -> true
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+salam
+DEBUG: equals(Planet null)
+DEBUG: equals(null)
+DEBUG: -> false
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.460000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.844000-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.400000
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+salam
+DEBUG: getName() called -> Saturne
+DEBUG: equals(Planet Saturne)
+DEBUG: equals(Saturne)
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Saturne12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+salam
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(Planet Jupiter)
+DEBUG: equals(Jupiter)
+DEBUG: -> true
+DEBUG: equals(Star Soleil)
+DEBUG: equals(Soleil)
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: -> false
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Soleil0.0000000.0000000.000000
+DEBUG: getName() called -> Jupiter
+DEBUG: equals(CelestialObject Jupiter)
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: toStringFull() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Altair12.450000328.843700-328.392300
+DEBUG: hashCode() called
+DEBUG: toStringFull() called
+DEBUG: Stringify(%s%f%f%f)
+DEBUG: -> Jupiter12.450000328.843700-328.392300
+DEBUG: CelestialObject(String name=Aldebarran, x=3278.120, y=4893.329, z=192.320)
+DEBUG: Star(String name=Aldebarran, x=3278.120, y=4893.329, z=192.320, magnitude=329.320)
+DEBUG: CelestialObject() called
+DEBUG: Planet() called
+DEBUG: CelestialObject() called
+DEBUG: Star() called
+DEBUG: CelestialObject(String name=Tatooine, x=12.389, y=48398.120, z=-123.843)
+DEBUG: getName() called -> Aldebarran
+DEBUG: Planet(String name=Tatooine, x=12.389, y=48398.120, z=-123.843, centerStar=Aldebarran)
+DEBUG: getX() called -> 0.0
+DEBUG: getX() called -> 3278.12
+DEBUG: getY() called -> 0.0
+DEBUG: getY() called -> 4893.3289
+DEBUG: getZ() called -> 0.0
+DEBUG: getZ() called -> 192.32
+DEBUG: getName() called -> Soleil
+DEBUG: getName() called -> Aldebarran
+DEBUG: getName() called -> Soleil
+DEBUG: getCenterStar() -> Soleil
+DEBUG: CelestialObject() called
+DEBUG: Star() called
+DEBUG: delegating to equals(Star)
+DEBUG: equals(Star Soleil)
+DEBUG: equals(Soleil)
+DEBUG: -> true
+DEBUG: -> true
+DEBUG: getX() called -> 12.389
+DEBUG: getX() called -> 3278.12
+DEBUG: getY() called -> 48398.12
+DEBUG: getY() called -> 4893.3289
+DEBUG: getZ() called -> -123.843
+DEBUG: getZ() called -> 192.32
+DEBUG: getName() called -> Tatooine
+DEBUG: getName() called -> Aldebarran
+DEBUG: getName() called -> Aldebarran
+DEBUG: getCenterStar() -> Aldebarran
+DEBUG: delegating to equals(Star)
+DEBUG: equals(Star Aldebarran)
+DEBUG: equals(Aldebarran)
+DEBUG: -> true
+DEBUG: CelestialObject(String name=Altair, x=12.450, y=328.844, z=-328.392)
+DEBUG: CelestialObject(String name=Altair, x=12.450, y=328.844, z=-328.392)
+DEBUG: Star(String name=Altair, x=12.450, y=328.844, z=-328.392, magnitude=13.920)
+DEBUG: CelestialObject(String name=Palaven, x=43.230, y=-123.430, z=38.239)
+DEBUG: getName() called -> Altair
+DEBUG: Planet(String name=Palaven, x=43.230, y=-123.430, z=38.239, centerStar=Altair)
+DEBUG: toString() called
+DEBUG: Stringify(%s is positioned at (%.3f, %.3f, %.3f))
+DEBUG: -> Altair is positioned at (12.450, 328.844, -328.392)
+DEBUG: toString() called
+DEBUG: Stringify(%s is positioned at (%.3f, %.3f, %.3f))
+DEBUG: -> Altair is positioned at (12.450, 328.844, -328.392)
+DEBUG: toString() called
+DEBUG: getDistanceBetween(a=Palaven, b=Altair)
+DEBUG: -> 583.024371918859
+DEBUG: toString() called
+DEBUG: getDistanceBetween(a=Palaven, b=Altair)
+DEBUG: -> 583.024371918859
+== JUnit Platform Test Run ==
+
+Test run finished after 174 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[        25 tests found           ]
+[         0 tests skipped         ]
+[        25 tests started         ]
+[         9 tests aborted         ]
+[        15 tests successful      ]
+[         1 tests failed          ]
+
+
+Failures:
+  1) classPlanet_shouldHaveFullParameterConstructor() -> org.opentest4j.AssertionFailedError: Full parameters constructor should be public
+org.opentest4j.AssertionFailedError: Full parameters constructor should be public
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at StarPlanetTest.classPlanet_shouldHaveFullParameterConstructor(StarPlanet_test.java:371)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
