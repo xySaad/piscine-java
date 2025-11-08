@@ -2,7 +2,7 @@ public class CelestialObject {
     public double x, y, z = 0.0;
     public String name = "Soleil";
     public static final double KM_IN_ONE_AU = 150_000_000;
-    int mass;
+    private int mass;
 
     public int getMass() {
         return mass;
